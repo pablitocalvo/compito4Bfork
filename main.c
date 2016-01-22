@@ -24,15 +24,16 @@
 #include <stdio.h>
 
 int main( void ) {
+    int i;
 	int pid = fork();
 
 	if ( pid == 0 )
-        {
-		printf( "hello world dal figlio \n" );
+        {   for (i=1;i<=5; i++)
+                printf( "dal figlio %d \n", i );
         }
 	else
-        {
-		printf( "hello world dal padre \n" );
+        {   for (i=6;i<=10; i++)
+                printf( "dal padre %d \n", i );
         }
 
 	return 0;
@@ -40,5 +41,7 @@ int main( void ) {
 
 /* COMMENTI SULL'ESECUZIONE DEL PROGRAMMA:
 
+poichè i processi avranno "vita" indipendente
+l'ordine di stampa (tra padre e figlio) non è predicibile.
 
 */
