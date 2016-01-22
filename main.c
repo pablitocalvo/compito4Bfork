@@ -7,16 +7,16 @@
 //  segnalando chi ha stampato il numero
 //
 //  esempio di output :
-//   figlio 6
-//   figlio 7
-//   figlio 8
-//   figlio 9
-//   figlio 10
-//padre 1
-//padre 2
-//padre 3
-//padre 4
-//padre 5
+//   figlio 1
+//   figlio 2
+//   figlio 3
+//   figlio 4
+//   figlio 5
+//   padre 6
+//   padre 7
+//   padre 8
+//   padre 9
+//   padre 10
 //
 //   2) lanciarlo molte volte ed inserire i vostri commenti in fondo al file
 
