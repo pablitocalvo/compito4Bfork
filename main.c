@@ -26,11 +26,14 @@
 int main( void ) {
 	int pid = fork();
 
-	if ( pid == 0 ) {
+	if ( pid == 0 )
+        {
 		printf( "hello world dal figlio \n" );
-	} else {
+        }
+	else
+        {
 		printf( "hello world dal padre \n" );
-	}
+        }
 
 	return 0;
 }
